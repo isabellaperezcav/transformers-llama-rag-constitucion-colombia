@@ -1,0 +1,18 @@
+# Entorno único para Linux con GPU NVIDIA (Puntos 1, 2 y 3). Python 3.10, 3.11 o 3.12 (TensorFlow 2.17 no soporta 3.13).
+# Requiere el driver propietario de NVIDIA instalado (`nvidia-smi` debe funcionar). No hace falta instalar CUDA aparte.
+
+# --- Puntos 1 y 2 (entrenamiento) ---
+tensorflow[and-cuda]==2.17.0      # trae CUDA 12 y cuDNN por pip
+numpy==1.26.4
+matplotlib==3.9.2
+pandas==2.2.3
+pypdf==5.0.1
+
+# --- Punto 3 (RAG) ---
+ollama==0.4.7
+chromadb==0.5.23
+posthog<6                          # chromadb 0.5.x no es compatible con posthog 6 (avisos "capture() takes 1 positional argument")
+gradio==5.9.1
+
+# --- Jupyter / VS Code ---
+ipykernel

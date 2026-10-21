@@ -1,0 +1,24 @@
+tipo,q,n_rel,mrr,dist_top1,hit@1,recall@1,cov@1,hit@3,recall@3,cov@3,hit@5,recall@5,cov@5
+simple,¿Qué es la acción de tutela y ante quién se presenta?,1,1.0,0.305599570274353,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0
+simple,¿Qué dice la Constitución sobre el derecho de petición?,1,0.25,0.33393460512161255,0,0.0,0.0,0,0.0,0.0,1,1.0,1.0
+simple,¿Hay pena de muerte en Colombia?,1,0.5,0.45518964529037476,0,0.0,0.0,1,1.0,1.0,1,1.0,1.0
+simple,¿Cómo define la Constitución a Colombia en su primer artículo?,1,0.5,0.3638850450515747,0,0.0,0.0,1,1.0,1.0,1,1.0,1.0
+simple,¿Qué dice la Constitución sobre la igualdad ante la ley?,1,0.0,0.44456130266189575,0,0.0,0.0,0,0.0,0.0,0,0.0,0.0
+simple,¿Por cuántos años es elegido el Presidente de la República?,1,1.0,0.24270027875900269,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0
+simple,¿Qué dice la Constitución sobre la presunción de inocencia?,1,0.0,0.4959004521369934,0,0.0,0.0,0,0.0,0.0,0,0.0,0.0
+simple,¿Qué dice la Constitución sobre el derecho a un ambiente sano?,1,1.0,0.3280695080757141,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0
+simple,¿Qué derecho tienen las personas sobre la información que se recoge sobre ellas en bancos de datos?,1,1.0,0.3042478561401367,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0
+simple,¿En cuántos días se debe resolver una petición en general?,1,1.0,0.28458160161972046,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0
+simple,¿En cuántos días se resuelven las peticiones de documentos y de información?,5,1.0,0.29248595237731934,1,1.0,1.0,1,0.3333333333333333,1.0,1,0.2,1.0
+simple,¿En cuántos días se resuelven las consultas a las autoridades?,2,1.0,0.31335151195526123,1,1.0,1.0,1,0.5,1.0,1,0.5,1.0
+simple,¿Qué es el desistimiento tácito en una petición incompleta?,1,1.0,0.31328630447387695,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0
+simple,¿Qué peticiones tienen atención prioritaria?,1,1.0,0.27213025093078613,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0
+simple,¿Cuál es el objeto de la ley de protección de datos personales?,3,0.3333333333333333,0.34018564224243164,0,0.0,0.0,1,0.3333333333333333,1.0,1,0.3333333333333333,1.0
+simple,¿Qué entidad ejerce la vigilancia de la protección de datos personales?,1,1.0,0.29600411653518677,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0
+simple,¿Qué es un dato sensible?,1,1.0,0.3331235647201538,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0
+simple,¿Qué tipo de consentimiento se requiere para tratar datos personales?,2,1.0,0.3198230266571045,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0
+simple,¿Cuál es el término máximo para atender un reclamo sobre datos personales?,1,1.0,0.2956107258796692,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0
+simple,¿En cuántos días se atiende una consulta sobre datos personales?,1,1.0,0.3112567663192749,1,1.0,1.0,1,1.0,1.0,1,1.0,1.0
+cruzada,¿Qué artículo de la Constitución consagra el derecho de petición y en cuántos días debe resolverse una petición en general según la ley?,2,1.0,0.4099653959274292,1,1.0,0.5,1,0.5,0.5,1,0.5,0.5
+cruzada,¿Qué derecho constitucional protege el conocimiento y la rectificación de los datos personales y qué autoridad vigila su tratamiento según la ley?,2,1.0,0.341336190700531,1,1.0,0.5,1,1.0,1.0,1,1.0,1.0
+cruzada,¿Qué consentimiento exige la ley para tratar datos personales y qué protege la Constitución sobre la intimidad de las personas?,3,1.0,0.3297557234764099,1,1.0,0.5,1,1.0,1.0,1,1.0,1.0

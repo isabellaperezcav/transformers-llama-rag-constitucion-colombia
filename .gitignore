@@ -1,0 +1,12 @@
+# Entornos y cachés
+.venv/
+venv/
+venv_ia/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.DS_Store
+
+# Artefactos pesados o regenerables
+salidas/*.keras
+salidas/*.pkl
