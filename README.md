@@ -51,8 +51,6 @@ Limitaciones conocidas: el modelo alucina en preguntas “cercanas” sin respue
 └── LICENSE
 ```
 
-Los notebooks buscan solos la carpeta del proyecto (la del notebook o su carpeta padre). Si la tienes en otro sitio, define `ENTREGABLE_DIR`.
-
 ## Instalación (Linux con GPU NVIDIA)
 
 Requisitos: driver propietario de NVIDIA (`nvidia-smi`), Python 3.10–3.12 y [Ollama](https://ollama.com).
