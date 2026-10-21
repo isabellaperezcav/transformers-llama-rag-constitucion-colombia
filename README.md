@@ -8,8 +8,8 @@ Generación de texto con un **Transformer tipo LLaMA** (a nivel de carácter y d
 
 | Punto | Notebook | Qué hace |
 |---|---|---|
-| 1 y 2 | [`notebooks/01_02_llama_char_word.ipynb`](notebooks/01_02_llama_char_word.ipynb) | Entrena un Transformer **LLaMA** (RMSNorm + RoPE + SwiGLU + GQA) y un baseline **GPT** sobre la Constitución, a nivel de **carácter** y de **palabra**, con 3 semillas, y evalúa con BPC, perplejidad, top‑k, diversidad y memorización. |
-| 3 | [`notebooks/03_rag_ollama.ipynb`](notebooks/03_rag_ollama.ipynb) | RAG con **Ollama** (`llama3.2:3b` + `bge-m3`), **Chroma + BM25**, recuperación híbrida balanceada por documento, abstención por umbral, citas por artículo e interfaz **Gradio**. |
+| 1 y 2 | [`notebooks/Punto1y2_LLaMA_Constitucion_LOCAL.ipynb`](notebooks/Punto1y2_LLaMA_Constitucion_LOCAL.ipynb) | Entrena un Transformer **LLaMA** (RMSNorm + RoPE + SwiGLU + GQA) y un baseline **GPT** sobre la Constitución, a nivel de **carácter** y de **palabra**, con 3 semillas, y evalúa con BPC, perplejidad, top‑k, diversidad y memorización. |
+| 3 | [`notebooks/Punto3_RAG_Ollama_Constitucion_LOCAL.ipynb`](notebooks/Punto3_RAG_Ollama_Constitucion_LOCAL.ipynb) | RAG con **Ollama** (`llama3.2:3b` + `bge-m3`), **Chroma + BM25**, recuperación híbrida balanceada por documento, abstención por umbral, citas por artículo e interfaz **Gradio**. |
 
 ## Resultados principales
 
